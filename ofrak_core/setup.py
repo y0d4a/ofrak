@@ -38,7 +38,7 @@ setuptools.setup(
     ],
     install_requires=[
         "intervaltree==3.1.0",
-        "lief==0.11.5",
+        "lief==0.17.2",
         "orjson~=3.6.7",
         "pefile==2022.5.30",
         "python-magic",
@@ -50,17 +50,17 @@ setuptools.setup(
     ],
     extras_require={
         "docs": [
-            "mkdocs==1.2.2",
+            "mkdocs==1.2.3",
             "mkdocs-autorefs==0.3.0",
             "mkdocstrings==0.16.2",
             "mkdocs-literate-nav==0.4.0",
-            "mkdocs-material==7.3.3",
+            "mkdocs-material==9.7.7",
             "mkdocs_gen_files==0.3.3",
-            "jinja2==3.0.0",
+            "jinja2==3.1.6",
         ],
         "test": [
             "autoflake==1.4",
-            "black==22.3.0",
+            "black==26.10.1",
             "pytest",
             "hypothesis~=6.39.3",
             "hypothesis-trio",
